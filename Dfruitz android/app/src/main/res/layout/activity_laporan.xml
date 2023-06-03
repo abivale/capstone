@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_color"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tulis Laporanmu"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textJenisTindakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Tindakan"
+        app:layout_constraintTop_toBottomOf="@+id/textTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="35dp"/>
+
+    <!-- Option for Jenis Tindakan -->
+    <Spinner
+        android:id="@+id/spinnerJenisTindakan"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:entries="@array/jenis_tindakan_options"
+        android:background="@color/grey"
+        app:layout_constraintTop_toBottomOf="@+id/textJenisTindakan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textTanggalKejadian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Kejadian"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerJenisTindakan"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Option for Tanggal Kejadian -->
+    <EditText
+        android:id="@+id/editTextTanggalKejadian"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="Select option here"
+        android:background="@color/grey"
+        app:layout_constraintTop_toBottomOf="@+id/textTanggalKejadian"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTanggalKejadian"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <!-- EditText for Detail -->
+    <EditText
+        android:id="@+id/editTextDetail"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        android:background="@android:drawable/editbox_background"
+        android:hint="Enter details here"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        app:layout_constraintTop_toBottomOf="@+id/textDetail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textUploadGambar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Gambar"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDetail"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewUploadGambar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Gambar"
+        android:background="@color/grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textUploadGambar"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUploadGambar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="25dp"
+        app:layout_constraintWidth_percent="0.6"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
