@@ -1,9 +1,9 @@
 package com.dicoding.dfruitz
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+
 
         sementara = findViewById(R.id.inm)
         sementara.setOnClickListener {
