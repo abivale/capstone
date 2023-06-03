@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">D\'Fruitz</string>
+    <string name="welcome">Welcome</string>
+    <string name="start">Start</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signup_intent">Don\'t have an account?</string>
+    <string name="login_intent">Already have an account?</string>
+    <string name="go_in">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="signupword">Sign Up Form</string>
+    <string name="full_name">Full Name</string>
+
+    <string-array name="jenis_tindakan_options">
+        <item>Select Option</item>
+        <item>TuruTuruan</item>
+        <item>Bubuk</item>
+        <!-- Add more options as needed -->
+    </string-array>
+
+
+</resources>
