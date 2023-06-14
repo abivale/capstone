@@ -7,20 +7,22 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import okhttp3.*
-import org.json.JSONException
-import org.json.JSONObject
-import java.io.IOException
+import com.google.android.gms.tasks.Task
+import com.google.firebase.auth.AuthResult
+import com.google.firebase.auth.FirebaseAuth
 
-class SignUp : AppCompatActivity() {
+class  SignUp : AppCompatActivity() {
     private lateinit var login: TextView
     private lateinit var signUpButton: Button
     private lateinit var nameEditText: EditText
     private lateinit var emailEditText: EditText
     private lateinit var passwordEditText: EditText
+    private lateinit var auth: FirebaseAuth;
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val currentUser = auth.currentUser
         setContentView(R.layout.activity_sign_up)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
@@ -43,58 +45,79 @@ class SignUp : AppCompatActivity() {
 
             if (name.isBlank() || email.isBlank() || password.isBlank()) {
                 Toast.makeText(this, "Please fill in all input needed", Toast.LENGTH_SHORT).show()
-            } else {
-                val user = User(name, email, password)
-                sendUserDataToServer(user)
-            }
+                return@setOnClickListener
+            } //else {
+                //val user = User(name, email, password)
+                //sendUserDataToServer(user)
+            //}
+
+            auth.createUserWithEmailAndPassword(name, email, password)
+                .addOnCompleteListener(this) { task ->
+                    if (task.isSuccessful) {
+                        // Sign in success, update UI with the signed-in user's information
+                        val user = auth.currentUser
+                    } else {
+                        // If sign in fails, display a message to the user.
+                        Toast.makeText(
+                            baseContext,
+                            "Authentication failed.",
+                            Toast.LENGTH_SHORT,
+                        ).show()
+                    }
+                }
         }
     }
 
-    override fun onSupportNavigateUp(): Boolean {
-        onBackPressed()
-        return true
-    }
 
-    private fun sendUserDataToServer(user: User) {
-        val requestBody = FormBody.Builder()
-            .add("name", user.name)
-            .add("email", user.email)
-            .add("password", user.password)
-            .build()
+    //override fun onSupportNavigateUp(): Boolean {
+        //onBackPressed()
+        //return true
+    //}
 
-        val request = Request.Builder()
-            .url("") //Url taruh sini
-            .post(requestBody)
-            .build()
+    //private fun sendUserDataToServer(user: User) {
+        //val requestBody = FormBody.Builder()
+            //.add("name", user.name)
+            //.add("email", user.email)
+            //.add("password", user.password)
+            //.build()
 
-        val client = OkHttpClient()
-        client.newCall(request).enqueue(object : Callback {
-            override fun onFailure(call: Call, e: IOException) {
-                e.printStackTrace()
-                runOnUiThread {
-                    Toast.makeText(applicationContext, "Network request failed", Toast.LENGTH_SHORT).show()
-                }
-            }
+        //val request = Request.Builder()
+            //.url("") //Url taruh sini
+            //.post(requestBody)
+            //.build()
 
-            override fun onResponse(call: Call, response: Response) {
-                val responseBody = response.body?.string()
-                if (response.isSuccessful && responseBody != null) {
-                    runOnUiThread {
-                        Toast.makeText(applicationContext, "Sign-up successful", Toast.LENGTH_SHORT).show()
-                        try {
-                            val jsonResponse = JSONObject(responseBody)
-                            val userId = jsonResponse.getString("id") // Kasi kolom id di database, selebihnya tambahin aja
+        //val client = OkHttpClient()
+        //client.newCall(request).enqueue(object : Callback {
+            //override fun onFailure(call: Call, e: IOException) {
+                //e.printStackTrace()
+                //runOnUiThread {
+                    //Toast.makeText(applicationContext, "Network request failed", Toast.LENGTH_SHORT).show()
+                //}
+            //}
 
-                        } catch (e: JSONException) {
-                            e.printStackTrace()
-                        }
-                    }
-                } else {
-                    runOnUiThread {
-                        Toast.makeText(applicationContext, "Sign-up failed", Toast.LENGTH_SHORT).show()
-                    }
-                }
-            }
-        })
-    }
+            //override fun onResponse(call: Call, response: Response) {
+                //val responseBody = response.body?.string()
+                //if (response.isSuccessful && responseBody != null) {
+                    //runOnUiThread {
+                        //Toast.makeText(applicationContext, "Sign-up successful", Toast.LENGTH_SHORT).show()
+                        //try {
+                            //val jsonResponse = JSONObject(responseBody)
+                            //val userId = jsonResponse.getString("id") // Kasi kolom id di database, selebihnya tambahin aja
+
+                        //} catch (e: JSONException) {
+                            //e.printStackTrace()
+                        //}
+                    //}
+                //} else {
+                    //runOnUiThread {
+                        //Toast.makeText(applicationContext, "Sign-up failed", Toast.LENGTH_SHORT).show()
+                    //}
+                //}
+            //}
+        //})
+    //}
+}
+
+private fun FirebaseAuth.createUserWithEmailAndPassword(name: String, email: String, password: String): Task<AuthResult> {
+
 }
