@@ -9,20 +9,90 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="401fcfcd-ae32-447a-9566-3722b8f8478f" name="Changes" comment="update home navigation">
+    <list default="true" id="401fcfcd-ae32-447a-9566-3722b8f8478f" name="Changes" comment="SignUp Update">
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/css/animated.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/css/owl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/css/templatemo-seo-dream.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/fonts/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/fonts/flexslider-icon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/fonts/flexslider-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/fonts/flexslider-icon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/fonts/flexslider-icon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/about-left-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/banner-dec-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/banner-dec-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/banner-right-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/contact-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/contact-icon-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/contact-icon-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/contact-icon-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/features-icon-black-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/features-icon-black-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/features-icon-white-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/features-icon-white-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/features-number-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/features-number-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/features-number-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/features-number-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/logo-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/portfolio-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/portfolio-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/portfolio-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/portfolio-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/portfolio-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/portfolio-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/service-icon-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/service-icon-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/images/service-icon-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/js/animation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/js/imagesloaded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/js/isotope.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/js/owl-carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/assets/js/tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/static/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/templates/portofolio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Capstone Support/login_flask/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dfruitz/dfruitz_model_dropOut.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dfruitz/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dfruitz/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capstone" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dicoding/dfruitz/About.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dicoding/dfruitz/User.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dicoding/dfruitz/SignUp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dicoding/dfruitz/SignUp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/about.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_about.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_about.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dicoding/dfruitz/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dicoding/dfruitz/HomeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_lapor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_lapor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686663450064</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="SignUp Update">
+      <created>1686742838437</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686742838437</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +263,7 @@
     <MESSAGE value="1st Commit 70" />
     <MESSAGE value="test update" />
     <MESSAGE value="update home navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="update home navigation" />
+    <MESSAGE value="SignUp Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="SignUp Update" />
   </component>
 </project>
