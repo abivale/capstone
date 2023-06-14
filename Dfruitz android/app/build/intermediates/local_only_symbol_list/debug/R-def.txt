@@ -30,6 +30,7 @@ id action_settings
 id app_bar_home
 id button
 id buttonSubmit
+id buttonUpload
 id cardView
 id date
 id detail
@@ -41,7 +42,6 @@ id editTextTanggalKejadian
 id email
 id fab
 id goIn
-id guideline
 id image
 id imageView
 id inm
@@ -66,14 +66,11 @@ id textTanggalKejadian
 id textTitle
 id textUploadGambar
 id textView
-id textViewUploadGambar
-id text_about
 id text_gallery
 id text_home
 id title
 id toolbar
 id username
-layout about
 layout activity_home
 layout activity_main
 layout activity_sign_up
@@ -92,9 +89,15 @@ mipmap ic_launcher_round
 navigation mobile_navigation
 string action_settings
 string app_name
+string default_web_client_id
 string email
 string full_name
+string gcm_defaultSenderId
 string go_in
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string login_intent
 string menu_about
 string menu_home
@@ -105,6 +108,7 @@ string nav_header_title
 string navigation_drawer_close
 string navigation_drawer_open
 string password
+string project_id
 string sign_up
 string signup_intent
 string signupword
