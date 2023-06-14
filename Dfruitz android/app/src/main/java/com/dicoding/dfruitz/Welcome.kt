@@ -32,7 +32,7 @@ class Welcome : AppCompatActivity() {
             if (isValidCredentials(email, password)) {
                 Toast.makeText(this, "Login successful", Toast.LENGTH_SHORT).show()
 
-                val intent = Intent(this, Home::class.java)
+                val intent = Intent(this, HomeActivity::class.java)
                 startActivity(intent)
                 finish() // Finish the current activity to prevent going back to the login screen
             } else {

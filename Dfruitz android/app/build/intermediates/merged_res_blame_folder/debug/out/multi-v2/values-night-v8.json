@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.dicoding.dfruitz.app-mergeDebugResources-29:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.dicoding.dfruitz.app-mergeDebugResources-49:/values-night-v8/values-night-v8.xml",
             "map": [
-                {
-                    "source": "D:\\##KULIAH\\2023 (VI)\\Stupen Bangkit Mobile Dev\\Project Or Tugas\\Project Android Studio\\DFruitz\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2,16",
-                        "startColumns": "4,4",
-                        "startOffsets": "105,811",
-                        "endLines": "14,18",
-                        "endColumns": "12,12",
-                        "endOffsets": "805,920"
-                    },
-                    "to": {
-                        "startLines": "9,49",
-                        "startColumns": "4,4",
-                        "startOffsets": "687,4228",
-                        "endLines": "21,51",
-                        "endColumns": "12,12",
-                        "endOffsets": "1256,4337"
-                    }
-                },
                 {
                     "source": "C:\\Users\\LENOVO\\.gradle\\caches\\transforms-3\\8d9343f569df63b726615d18b45679d4\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
@@ -54,6 +35,25 @@
                         "startOffsets": "1261,1336,1447,1536,1637,1744,1851,1950,2057,2160,2248,2372,2474,2576,2692,2794,2908,3036,3152,3274,3410,3530,3664,3784,3896,4111,4342,4466,4596,4718,4856,4990,5106",
                         "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "1331,1442,1531,1632,1739,1846,1945,2052,2155,2243,2367,2469,2571,2687,2789,2903,3031,3147,3269,3405,3525,3659,3779,3891,4017,4223,4461,4591,4713,4851,4985,5101,5221"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\LENOVO\\Downloads\\cap\\capstone\\Dfruitz android\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2,16",
+                        "startColumns": "4,4",
+                        "startOffsets": "105,811",
+                        "endLines": "14,18",
+                        "endColumns": "12,12",
+                        "endOffsets": "805,920"
+                    },
+                    "to": {
+                        "startLines": "9,49",
+                        "startColumns": "4,4",
+                        "startOffsets": "687,4228",
+                        "endLines": "21,51",
+                        "endColumns": "12,12",
+                        "endOffsets": "1256,4337"
                     }
                 }
             ]
