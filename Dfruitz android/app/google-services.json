@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "520308223460",
+    "project_id": "d-fruitz",
+    "storage_bucket": "d-fruitz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520308223460:android:960dc6f3e18e050401abf1",
+        "android_client_info": {
+          "package_name": "com.dicoding.dfruitz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520308223460-0qp7g1oiqlcbojept6v18j5tmne9eq47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLmv6iVCqNl6bxZNdmHNbGwHdIeHQqktA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520308223460-0qp7g1oiqlcbojept6v18j5tmne9eq47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
