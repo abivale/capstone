@@ -23,9 +23,15 @@
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
     <string name="action_settings">Settings</string>
     <string name="app_name">D\'Fruitz</string>
+    <string name="default_web_client_id" translatable="false">520308223460-0qp7g1oiqlcbojept6v18j5tmne9eq47.apps.googleusercontent.com</string>
     <string name="email">Email</string>
     <string name="full_name">Full Name</string>
+    <string name="gcm_defaultSenderId" translatable="false">520308223460</string>
     <string name="go_in">Login</string>
+    <string name="google_api_key" translatable="false">AIzaSyDLmv6iVCqNl6bxZNdmHNbGwHdIeHQqktA</string>
+    <string name="google_app_id" translatable="false">1:520308223460:android:960dc6f3e18e050401abf1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDLmv6iVCqNl6bxZNdmHNbGwHdIeHQqktA</string>
+    <string name="google_storage_bucket" translatable="false">d-fruitz.appspot.com</string>
     <string name="login_intent">Already have an account?</string>
     <string name="menu_about">About</string>
     <string name="menu_home">Home</string>
@@ -36,6 +42,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="password">Password</string>
+    <string name="project_id" translatable="false">d-fruitz</string>
     <string name="sign_up">Sign Up</string>
     <string name="signup_intent">Don\'t have an account?</string>
     <string name="signupword">Sign Up Form</string>
