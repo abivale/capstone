@@ -1,17 +1,17 @@
+<h1 align = "center"> D'fruitz </h1>
 
-### D'fruitz  
-<img src="https://github.com/abivale/capstone/blob/main/dfruitz.png?raw=true" align="left" style="width: 100%" />  
-  
+<p align = "center">
+<img src="https://github.com/abivale/capstone/blob/main/dfruitz.png?raw=true" class="center" height="450" width="500" />
+ </p>
+                                                                                   
 
-
-
-### Background  
+<h2> Background </h2>
 Not everyone has sufficient knowledge to identify the fruit they will consume. People need specific information according to actual conditions, to help maintain and increase fruit consumption, both in terms of quality and quantity. D'Fruitz provides features to identify the type of fruit, fruit content, fruit condition, to a more detailed explanation of the fruit.  
   
 
 
 
-### Features  
+<h2> Features </h2>  
 - Fruit and it's quality classification  
   
 
@@ -24,7 +24,7 @@ Not everyone has sufficient knowledge to identify the fruit they will consume. P
 <br/>  
 
 
-## Tools
+<h2> Tools </h2>
 <table><tr><td valign="top" width="33%">
 
 
