@@ -12,22 +12,36 @@
     <string name="full_name">Full Name</string>
 
     <string-array name="jenis_tindakan_options">
-        <item>Select Option</item>
-        <item>TuruTuruan</item>
-        <item>Bubuk</item>
-        <!-- Add more options as needed -->
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Guava</item>
+        <item>Lime</item>
+        <item>Orange</item>
+        <item>Pomegranate</item>
     </string-array>
     <string name="title_activity_home">HomeActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Full Name</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
 
+    <string name="action_settings">Logout</string>
     <string name="menu_home">Home</string>
     <string name="menu_lapor">Tambah Laporan</string>
     <string name="menu_about">About</string>
 
+    <array name="item_images">
+        <item>@drawable/apel</item>
+        <item>@drawable/pisang</item>
+    </array>
 
+    <array name="item_titles">
+        <item>Apples</item>
+        <item>Banana</item>
+    </array>
+
+    <array name="item_dates">
+        <item>15 - 6 - 2023</item>
+        <item>15 - 6 - 2023</item>
+    </array>
 </resources>

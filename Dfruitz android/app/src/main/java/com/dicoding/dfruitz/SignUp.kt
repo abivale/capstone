@@ -22,21 +22,30 @@ class SignUp : AppCompatActivity() {
             startActivity(intent)
         }
         binding.button.setOnClickListener {
-            val nama = binding.namaIN.text.toString()
-            val email = binding.emailIN.text.toString()
-            val pass = binding.passwordIN.text.toString()
+            signUpUser()
+        }
+    }
 
-            if (nama.isNotEmpty() && email.isNotEmpty() && pass.isNotEmpty()){
-                firebaseAuth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener {
-                    if (it.isSuccessful) {
-                        val intent = Intent(this, Welcome::class.java)
-                        startActivity(intent)
-                        finish()
-                    } else {
-                        Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
+    private fun signUpUser(){
+        val nama = binding.namaIN.text.toString()
+        val email = binding.emailIN.text.toString()
+        val pass = binding.passwordIN.text.toString()
+
+        if (nama.isNotEmpty() && email.isNotEmpty() && pass.isNotEmpty()){
+            firebaseAuth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener(SignUp()) {task ->
+
+                if (task.isSuccessful) {
+                    Toast.makeText(this, "User Signup Successfully", Toast.LENGTH_SHORT).show()
+                    firebaseAuth.signOut()
+                    val intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
+                    finish()
+                } else {
+                    Toast.makeText(this, task.exception!!.message.toString(), Toast.LENGTH_SHORT).show()
                     }
                 }
-            }
+            } else {
+                Toast.makeText(this, "Fill the fields correctly", Toast.LENGTH_SHORT).show()
         }
     }
 }

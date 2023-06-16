@@ -30,15 +30,25 @@ class Welcome : AppCompatActivity() {
 
                 firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
                     if (it.isSuccessful) {
+                        Toast.makeText(this, "Welcome, User Login Success", Toast.LENGTH_SHORT).show()
                         val intent = Intent(this, HomeActivity::class.java)
                         startActivity(intent)
                     } else {
-                        Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, it.exception!!.message.toString(), Toast.LENGTH_SHORT).show()
                     }
                 }
             } else {
                 Toast.makeText(this, "Please Fill Your Email And Password", Toast.LENGTH_SHORT).show()
             }
+        }
+    }
+    override fun onStart() {
+        super.onStart()
+        val currentUser = firebaseAuth.currentUser
+        if (currentUser != null) {
+            val intent = Intent(this, HomeActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }

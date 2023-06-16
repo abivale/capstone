@@ -1,5 +1,8 @@
 R_DEF: Internal format may change without notice
 local
+array item_dates
+array item_images
+array item_titles
 array jenis_tindakan_options
 color black
 color deep_red
@@ -16,6 +19,7 @@ dimen activity_vertical_margin
 dimen fab_margin
 dimen nav_header_height
 dimen nav_header_vertical_spacing
+drawable apel
 drawable gradient_color
 drawable gradient_top
 drawable ic_launcher_background
@@ -24,6 +28,7 @@ drawable ic_menu_about
 drawable ic_menu_home
 drawable ic_menu_lapor
 drawable kwek
+drawable pisang
 drawable side_nav_bar
 id Image
 id action_settings
@@ -33,7 +38,6 @@ id buttonSubmit
 id buttonUpload
 id cardView
 id date
-id detail
 id drawer_layout
 id editTextDetail
 id editTextTanggalKejadian
@@ -105,7 +109,6 @@ string menu_about
 string menu_home
 string menu_lapor
 string nav_header_desc
-string nav_header_subtitle
 string nav_header_title
 string navigation_drawer_close
 string navigation_drawer_open
