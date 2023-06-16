@@ -23,3 +23,8 @@
     <b>Without drop out</b>
     <img src="https://github.com/abivale/capstone/blob/main/machine-learning/without-dropout-summary.png?raw=true">     
   </p1>
+
+  <h2> Dataset </h2>
+  <p1> Link : https://www.kaggle.com/datasets/shashwatwork/fruitnet-indian-fruits-dataset-with-quality </p1> <br> 
+  <p1> Provenance : https://data.mendeley.com/datasets/b6fftwbr2v/1 </p1> <br>
+  <p1> License : https://creativecommons.org/licenses/by-sa/4.0/ </p1>
