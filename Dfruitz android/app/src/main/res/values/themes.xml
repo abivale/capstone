@@ -21,4 +21,13 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">45sp</item>
     </style>
+
+    <style name="Theme.DFruitz.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.DFruitz.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.DFruitz.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
