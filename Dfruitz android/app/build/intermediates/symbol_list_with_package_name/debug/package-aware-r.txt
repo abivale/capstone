@@ -82,6 +82,9 @@ animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
+array item_dates
+array item_images
+array item_titles
 array jenis_tindakan_options
 attr SharedValue
 attr SharedValueId
@@ -2782,6 +2785,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable apel
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -2909,6 +2913,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pisang
 drawable side_nav_bar
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3079,7 +3084,6 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
-id detail
 id dialog_button
 id dimensions
 id direct
@@ -3102,13 +3106,13 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editText
-id editText2
 id editTextDetail
 id editTextTanggalKejadian
 id edit_query
 id elastic
 id email
+id emailIN
+id emailLayout
 id embed
 id end
 id endToStart
@@ -3138,7 +3142,6 @@ id fullscreen_header
 id ghost_view
 id ghost_view_holder
 id glide_custom_view_target_tag
-id goIn
 id gone
 id graph
 id graph_wrap
@@ -3163,7 +3166,6 @@ id immediateStop
 id included
 id indeterminate
 id info
-id inm
 id invisible
 id inward
 id italic
@@ -3245,7 +3247,8 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id nama
+id namaIN
+id namaLayout
 id nav_about
 id nav_controller_view_tag
 id nav_home
@@ -3285,7 +3288,9 @@ id parentPanel
 id parentRelative
 id parent_matrix
 id part1
-id password
+id passIN
+id passwordIN
+id passwordLayout
 id password_toggle
 id path
 id pathRelative
@@ -3416,6 +3421,7 @@ id textTitle
 id textTop
 id textUploadGambar
 id textView
+id text_about
 id text_gallery
 id text_home
 id text_input_end_icon
@@ -3856,7 +3862,6 @@ string mtrl_timepicker_confirm
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string nav_header_desc
-string nav_header_subtitle
 string nav_header_title
 string navigation_drawer_close
 string navigation_drawer_open
