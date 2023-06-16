@@ -22,7 +22,7 @@
     <string name="title_activity_home">HomeActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Full Name</string>
+    <string name="nav_header_title">DFruitz</string>
     <string name="nav_header_desc">Navigation header</string>
 
     <string name="action_settings">Logout</string>

@@ -4,163 +4,159 @@
         "source": "com.dicoding.dfruitz.app-main-58:/layout/item_list.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\layout_activity_welcome.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\layout\\activity_welcome.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/drawable_gradient_top.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/drawable/gradient_top.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\drawable_ic_menu_lapor.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\drawable\\ic_menu_lapor.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/layout_activity_sign_up.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/layout_content_home.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/layout/content_home.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/layout_fragment_lapor.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/layout/fragment_lapor.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\drawable_gradient_top.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\drawable\\gradient_top.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\layout_fragment_lapor.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\layout\\fragment_lapor.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\xml\\data_extraction_rules.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/xml_data_extraction_rules.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/layout_activity_home.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/layout/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\layout\\activity_main.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/menu_activity_home_drawer.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/menu/activity_home_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\layout_nav_header_home.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\layout\\nav_header_home.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/drawable_kwek.jpeg.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/drawable/kwek.jpeg"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\drawable_kwek.jpeg.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\drawable\\kwek.jpeg"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/menu_home.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/menu/home.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\menu_home.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\menu\\home.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/layout_activity_welcome.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/layout/activity_welcome.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\drawable_pisang.JPG.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\drawable\\pisang.JPG"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/layout_activity_main.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\drawable_ic_menu_home.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\drawable\\ic_menu_home.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/navigation_mobile_navigation.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/navigation/mobile_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\layout\\activity_sign_up.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/drawable_apel.jpg.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/drawable/apel.jpg"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/layout_fragment_about.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/layout/fragment_about.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-pngs-51:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\layout_item_list.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\layout\\item_list.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/drawable_ic_menu_about.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/drawable/ic_menu_about.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\layout_content_home.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\layout\\content_home.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\navigation_mobile_navigation.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\navigation\\mobile_navigation.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/drawable_side_nav_bar.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/drawable/side_nav_bar.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\drawable_gradient_color.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\drawable\\gradient_color.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/drawable_gradient_color.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/drawable/gradient_color.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/layout_fragment_home.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\layout\\activity_home.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/xml_backup_rules.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/layout_nav_header_home.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/layout/nav_header_home.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.dicoding.dfruitz.app-pngs-51:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\drawable_ic_menu_about.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\drawable\\ic_menu_about.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/layout_app_bar_home.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/layout/app_bar_home.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\drawable_side_nav_bar.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\drawable\\side_nav_bar.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\mipmap-anydpi-v33\\ic_launcher.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/drawable_pisang.JPG.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/drawable/pisang.JPG"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\layout\\fragment_home.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/drawable_ic_menu_lapor.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/drawable/ic_menu_lapor.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\menu_activity_home_drawer.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\menu\\activity_home_drawer.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\drawable_apel.jpg.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\drawable\\apel.jpg"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/drawable_ic_menu_home.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/drawable/ic_menu_home.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\layout_app_bar_home.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\layout\\app_bar_home.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\layout_fragment_about.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\layout\\fragment_about.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-merged_res-56:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.5\\com.dicoding.dfruitz.app-main-58:\\xml\\backup_rules.xml"
+        "merged": "com.dicoding.dfruitz.app-merged_res-56:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.dfruitz.app-main-58:/mipmap-mdpi/ic_launcher_round.webp"
     }
 ]

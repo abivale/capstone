@@ -6,7 +6,7 @@
         <item>Lime</item>
         <item>Orange</item>
         <item>Pomegranate</item>
-    </string-array><string name="title_activity_home">HomeActivity</string><string name="navigation_drawer_open">Open navigation drawer</string><string name="navigation_drawer_close">Close navigation drawer</string><string name="nav_header_title">Full Name</string><string name="nav_header_desc">Navigation header</string><string name="action_settings">Logout</string><string name="menu_home">Home</string><string name="menu_lapor">Tambah Laporan</string><string name="menu_about">About</string><array name="item_images">
+    </string-array><string name="title_activity_home">HomeActivity</string><string name="navigation_drawer_open">Open navigation drawer</string><string name="navigation_drawer_close">Close navigation drawer</string><string name="nav_header_title">DFruitz</string><string name="nav_header_desc">Navigation header</string><string name="action_settings">Logout</string><string name="menu_home">Home</string><string name="menu_lapor">Tambah Laporan</string><string name="menu_about">About</string><array name="item_images">
         <item>@drawable/apel</item>
         <item>@drawable/pisang</item>
     </array><array name="item_titles">
