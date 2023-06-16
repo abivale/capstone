@@ -2,60 +2,53 @@ package com.dicoding.dfruitz
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.dicoding.dfruitz.databinding.ActivityWelcomeBinding
+import com.google.firebase.auth.FirebaseAuth
 
 class Welcome : AppCompatActivity() {
-    private lateinit var emailEditText: EditText
-    private lateinit var passwordEditText: EditText
-    private lateinit var loginButton: Button
-    private lateinit var signup: TextView
+    private lateinit var binding: ActivityWelcomeBinding
+    private lateinit var firebaseAuth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_welcome)
+        binding = ActivityWelcomeBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        firebaseAuth = FirebaseAuth.getInstance()
 
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-
-        emailEditText = findViewById(R.id.editText)
-        passwordEditText = findViewById(R.id.editText2)
-        loginButton = findViewById(R.id.goIn)
-        signup = findViewById(R.id.signup)
-
-        loginButton.setOnClickListener {
-            val email = emailEditText.text.toString()
-            val password = passwordEditText.text.toString()
-
-            if (isValidCredentials(email, password)) {
-                Toast.makeText(this, "Login successful", Toast.LENGTH_SHORT).show()
-
-                val intent = Intent(this, HomeActivity::class.java)
-                startActivity(intent)
-                finish() // Finish the current activity to prevent going back to the login screen
-            } else {
-                Toast.makeText(this, "Invalid email or password", Toast.LENGTH_SHORT).show()
-            }
-        }
-
-        signup.setOnClickListener {
+        binding.signup.setOnClickListener {
             val intent = Intent(this, SignUp::class.java)
             startActivity(intent)
         }
+
+        binding.button.setOnClickListener {
+            val email = binding.emailIN.text.toString()
+            val pass = binding.passIN.text.toString()
+
+            if (email.isNotEmpty() && pass.isNotEmpty()) {
+
+                firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
+                    if (it.isSuccessful) {
+                        Toast.makeText(this, "Welcome, User Login Success", Toast.LENGTH_SHORT).show()
+                        val intent = Intent(this, HomeActivity::class.java)
+                        startActivity(intent)
+                    } else {
+                        Toast.makeText(this, it.exception!!.message.toString(), Toast.LENGTH_SHORT).show()
+                    }
+                }
+            } else {
+                Toast.makeText(this, "Please Fill Your Email And Password", Toast.LENGTH_SHORT).show()
+            }
+        }
     }
-
-    private fun isValidCredentials(email: String, password: String): Boolean {
-        // Sementara
-        val adminEmail = "admin"
-        val adminPassword = "admin"
-
-        return email == adminEmail && password == adminPassword
-    }
-
-    override fun onSupportNavigateUp(): Boolean {
-        onBackPressed()
-        return true
+    override fun onStart() {
+        super.onStart()
+        val currentUser = firebaseAuth.currentUser
+        if (currentUser != null) {
+            val intent = Intent(this, HomeActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }

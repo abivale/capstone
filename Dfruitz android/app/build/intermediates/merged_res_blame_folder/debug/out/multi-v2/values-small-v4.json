@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.dicoding.dfruitz.app-mergeDebugResources-53:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.dicoding.dfruitz.app-mergeDebugResources-54:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-3\\fcab8f89f0bf03fb05e9f206a3056535\\transformed\\material-1.8.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\LENOVO\\.gradle\\caches\\transforms-3\\193c651c39a1b2998a4f18986e8ede38\\transformed\\material-1.8.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

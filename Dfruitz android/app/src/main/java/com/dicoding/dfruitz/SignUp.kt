@@ -2,122 +2,50 @@ package com.dicoding.dfruitz
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.google.android.gms.tasks.Task
-import com.google.firebase.auth.AuthResult
+import com.dicoding.dfruitz.databinding.ActivitySignUpBinding
 import com.google.firebase.auth.FirebaseAuth
 
-class  SignUp : AppCompatActivity() {
-    private lateinit var login: TextView
-    private lateinit var signUpButton: Button
-    private lateinit var nameEditText: EditText
-    private lateinit var emailEditText: EditText
-    private lateinit var passwordEditText: EditText
-    private lateinit var auth: FirebaseAuth;
-
+class SignUp : AppCompatActivity() {
+    private lateinit var binding: ActivitySignUpBinding
+    private lateinit var firebaseAuth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val currentUser = auth.currentUser
-        setContentView(R.layout.activity_sign_up)
+        binding = ActivitySignUpBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        firebaseAuth = FirebaseAuth.getInstance()
 
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-
-        login = findViewById(R.id.login)
-        signUpButton = findViewById(R.id.button)
-        nameEditText = findViewById(R.id.nama)
-        emailEditText = findViewById(R.id.email)
-        passwordEditText = findViewById(R.id.password)
-
-        login.setOnClickListener {
+        binding.login.setOnClickListener{
             val intent = Intent(this, Welcome::class.java)
             startActivity(intent)
         }
-
-        signUpButton.setOnClickListener {
-            val name = nameEditText.text.toString().trim()
-            val email = emailEditText.text.toString().trim()
-            val password = passwordEditText.text.toString().trim()
-
-            if (name.isBlank() || email.isBlank() || password.isBlank()) {
-                Toast.makeText(this, "Please fill in all input needed", Toast.LENGTH_SHORT).show()
-                return@setOnClickListener
-            } //else {
-                //val user = User(name, email, password)
-                //sendUserDataToServer(user)
-            //}
-
-            auth.createUserWithEmailAndPassword(name, email, password)
-                .addOnCompleteListener(this) { task ->
-                    if (task.isSuccessful) {
-                        // Sign in success, update UI with the signed-in user's information
-                        val user = auth.currentUser
-                    } else {
-                        // If sign in fails, display a message to the user.
-                        Toast.makeText(
-                            baseContext,
-                            "Authentication failed.",
-                            Toast.LENGTH_SHORT,
-                        ).show()
-                    }
-                }
+        binding.button.setOnClickListener {
+            signUpUser()
         }
     }
 
+    private fun signUpUser(){
+        val nama = binding.namaIN.text.toString()
+        val email = binding.emailIN.text.toString()
+        val pass = binding.passwordIN.text.toString()
 
-    //override fun onSupportNavigateUp(): Boolean {
-        //onBackPressed()
-        //return true
-    //}
+        if (nama.isNotEmpty() && email.isNotEmpty() && pass.isNotEmpty()){
+            firebaseAuth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener(SignUp()) {task ->
 
-    //private fun sendUserDataToServer(user: User) {
-        //val requestBody = FormBody.Builder()
-            //.add("name", user.name)
-            //.add("email", user.email)
-            //.add("password", user.password)
-            //.build()
-
-        //val request = Request.Builder()
-            //.url("") //Url taruh sini
-            //.post(requestBody)
-            //.build()
-
-        //val client = OkHttpClient()
-        //client.newCall(request).enqueue(object : Callback {
-            //override fun onFailure(call: Call, e: IOException) {
-                //e.printStackTrace()
-                //runOnUiThread {
-                    //Toast.makeText(applicationContext, "Network request failed", Toast.LENGTH_SHORT).show()
-                //}
-            //}
-
-            //override fun onResponse(call: Call, response: Response) {
-                //val responseBody = response.body?.string()
-                //if (response.isSuccessful && responseBody != null) {
-                    //runOnUiThread {
-                        //Toast.makeText(applicationContext, "Sign-up successful", Toast.LENGTH_SHORT).show()
-                        //try {
-                            //val jsonResponse = JSONObject(responseBody)
-                            //val userId = jsonResponse.getString("id") // Kasi kolom id di database, selebihnya tambahin aja
-
-                        //} catch (e: JSONException) {
-                            //e.printStackTrace()
-                        //}
-                    //}
-                //} else {
-                    //runOnUiThread {
-                        //Toast.makeText(applicationContext, "Sign-up failed", Toast.LENGTH_SHORT).show()
-                    //}
-                //}
-            //}
-        //})
-    //}
-}
-
-private fun FirebaseAuth.createUserWithEmailAndPassword(name: String, email: String, password: String): Task<AuthResult> {
-
+                if (task.isSuccessful) {
+                    Toast.makeText(this, "User Signup Successfully", Toast.LENGTH_SHORT).show()
+                    firebaseAuth.signOut()
+                    val intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
+                    finish()
+                } else {
+                    Toast.makeText(this, task.exception!!.message.toString(), Toast.LENGTH_SHORT).show()
+                    }
+                }
+            } else {
+                Toast.makeText(this, "Fill the fields correctly", Toast.LENGTH_SHORT).show()
+        }
+    }
 }
